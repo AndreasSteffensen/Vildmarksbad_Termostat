@@ -1,6 +1,13 @@
 #ifndef display_h
 #define display_h
 
+enum displayID_t {
+    displayTens,
+    displayOnes,
+    displayDecimals,
+    numberOfDisplay
+};
+
 int num_array[10][7] = {  { 0,0,0,0,0,0,1 },    // 0
                           { 1,0,0,1,1,1,1 },    // 1
                           { 0,0,1,0,0,1,0 },    // 2
@@ -17,7 +24,7 @@ class display
 public:
     display();
     void SETUP();
-    void display7Seg(int number, int speed);
+    void display7Seg(int number, displayID_t ID);
     void displayOff(void);
 };
 
