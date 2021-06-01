@@ -11,8 +11,11 @@
                 "C:\\Program Files (x86)\\Arduino\\tools\\**",
                 "C:\\Users\\steff\\Documents\\Arduino\\libraries\\**",
                 "C:\\Program Files (x86)\\Arduino\\libraries\\**",
+                "C:\\Users\\steff\\Desktop\\Projekter\\Vildmarksbad_Termostat",
                 "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\**",
-                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**"
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**",
+                "C:\\Users\\steff\\Documents\\Arduino\\libraries\\DallasTemperature",
+                "C:\\Users\\steff\\Documents\\Arduino\\libraries\\OneWire"
             ],
             "forcedInclude": [
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
